@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex flex-col justify-center px-4 w-72">
             <div className="font-medium text-2xl font-black text-white pb-4">WandaVision</div>
             <Image className="pb-4" src={Score} width={200} alt="diversity score"></Image>
-            <div className="font-medium text-md text-white pb-4">“WandaVision isn’t particularly offensive when it comes to diversity on screen, but it’s not good either.”</div>
+            <div className="font-medium text-md text-white pb-4">“WandaVision isn&apos;t particularly offensive when it comes to diversity on screen, but it&apos;s not good either.”</div>
             <div className="font-medium text-md text-white pb-4">Read the review {'>'} </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="font-medium text-md text-neutral-700 pb-4">Read more {'>'} </div>
           </div>
           <div className="flex-column px-4 w-80">
-            <div className="font-medium text-2xl font-extrabold text-neutral-700 pb-4">Luminate's 2023 Entertainment Diversity Progress Report</div>
+            <div className="font-medium text-2xl font-extrabold text-neutral-700 pb-4">Luminate&apos;s 2023 Entertainment Diversity Progress Report</div>
             <div className="font-medium text-md text-neutral-700 pb-4">The takeaways, according to Deadline, are that intersectionality on screen has shown little change... </div>
             <div className="font-medium text-md text-neutral-700 pb-4">Read more {'>'} </div>
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
       {/* carousels */}
       <div className="bg-white p-12">
         <div className="flex flex-row justify-between items-center">
-          <h1 className="font-black text-3xl text-neutral-700">MERL's Top 10</h1>
+          <h1 className="font-black text-3xl text-neutral-700">MERL&apos;s Top 10</h1>
           <h1 className="font-md text-lg text-blue-600">VIEW COLLECTION</h1>
         </div>
         <Carousel />
